@@ -1,2 +1,7 @@
 # ksp_drone
- drone control
+ KSP 1.10.1
+
+# Mods
+- Tweak Scale
+- Surface Mounted Lights
+- kRPC
