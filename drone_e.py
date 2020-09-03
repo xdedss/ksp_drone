@@ -115,7 +115,7 @@ game_prev_time = space_center.ut
 #        print('%s : %s' % (key, module.fields[key]))
 #    break
 
-engines = {'l' : {'blades' : []}, 'r' : {'blades' : []}, 'f' : {'blades' : []}, 'b' : {'blades' : []}}
+engines = {'l' : {'blades' : []}, 'r' : {'blades' : []}, 'f' : {'blades' : []}, 'b' : {'blades' : []}} #用来储存转轴和桨叶的引用
 for servo in vessel.parts.modules_with_name('ModuleRoboticServoRotor'): #找到转轴并存好
     servo.set_field_float('Torque Limit(%)', 5.0)
     part = servo.part
